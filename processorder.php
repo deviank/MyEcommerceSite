@@ -89,9 +89,17 @@
 	} elseif($find == "d") {
 	  echo "<p>Customer referred by word of mouth.</p>";
 	} else {
-	  echo "<p>We do not know how this customer found us.</p>";
+	  echo "<p>Customer referred to us by a Website.</p>";
+	} else {
+	  echo "<p>Customer referred to us by an online social plaform.</p>";
+	} else {
+	  echo "<p>Cusomer referred to us by a Billboard.</p>";
+	} else {
+	  echo "<p>Cusomer referred to us by a Magazine.</p>";
+	} else {
+	  echo "<p>Cusomer referred to us by a Newspaper.</p>";
 	}
-
 ?>
+
 </body>
 </html>
