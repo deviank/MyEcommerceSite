@@ -88,17 +88,23 @@
 	  echo "<p>Customer referred by phone directory.</p>";
 	} elseif($find == "d") {
 	  echo "<p>Customer referred by word of mouth.</p>";
-	} else {
+	} elseif ($find == "e"){
 	  echo "<p>Customer referred to us by a Website.</p>";
-	} else {
+	} elseif ($find == "f"){
 	  echo "<p>Customer referred to us by an online social plaform.</p>";
-	} else {
+	} elseif ($find == "g"){
 	  echo "<p>Cusomer referred to us by a Billboard.</p>";
-	} else {
+	} elseif ($find == "h"){
 	  echo "<p>Cusomer referred to us by a Magazine.</p>";
-	} else {
+	} elseif ($find == "i"){
 	  echo "<p>Cusomer referred to us by a Newspaper.</p>";
+	} else {
+	  echo "<p></p>";
 	}
+?>
+
+<?php 
+echo gettype($taxrate);
 ?>
 
 </body>
