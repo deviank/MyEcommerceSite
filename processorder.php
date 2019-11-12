@@ -7,6 +7,9 @@
   $headlightqty = $_POST['headlightqty'];
   $magsqty = $_POST['magsqty'];
   $find = $_POST['find'];
+  $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
+  $date = date('H:i, jS F Y');
+
 ?>
 <html>
 <head>
@@ -100,12 +103,34 @@
 	  echo "<p>Cusomer referred to us by a Newspaper.</p>";
 	} else {
 	  echo "<p></p>";
-	}
-?>
+	  }
 
-<?php 
-echo gettype($taxrate);
-?>
+echo "<p>Total of order is $".$totalamount."</p>";
+echo "<p>Address to ship to is ".$address."</p>";
 
+$outputstring = $date."\t".$tireqty." tires \t".$oilqty." oil\t"
+    .$sparkqty." spark plugs\t\$".$totalamount
+    ."\t". $address."\n";
+
+
+
+// open file for appending
+@ $fp = fopen("$DOCUMENT_ROOT/../orders/orders.txt", 'ab');
+
+flock($fp, LOCK_EX);
+
+if (!$fp) {
+    echo "<p><strong> Your order could not be processed at this time.
+		    Please try again later.</strong></p></body></html>";
+    exit;
+}
+
+fwrite($fp, $outputstring, strlen($outputstring));
+flock($fp, LOCK_UN);
+fclose($fp);
+
+echo "<p>Order written.</p>";
+
+	  ?>
 </body>
 </html>
