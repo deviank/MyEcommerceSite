@@ -6,6 +6,7 @@
   $engineqty = $_POST['engineqty'];
   $headlightqty = $_POST['headlightqty'];
   $magsqty = $_POST['magsqty'];
+  $address = $_POST['address'];
   $find = $_POST['find'];
   $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
   $date = date('H:i, jS F Y');
