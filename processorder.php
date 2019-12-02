@@ -49,15 +49,15 @@
       }
       
       if ($engineqty > 0) {
-		echo $sparkqty." spark plugs<br />";
+		echo $engineqty." engine<br />";
       }
       
       if ($headlightqty > 0) {
-		echo $sparkqty." spark plugs<br />";
+		echo $headlightqty." headlights<br />";
       }
       
       if ($magsqty > 0) {
-		echo $sparkqty." spark plugs<br />";
+		echo $magsqty." mags<br />";
 	  }
 	}
 
@@ -116,9 +116,7 @@ $outputstring = $date."\t".$tireqty." tires \t".$oilqty." oil\t"
 
 
 // open file for appending
-@ $fp = fopen("$DOCUMENT_ROOT/../orders/orders.txt", 'ab');
-
-flock($fp, LOCK_EX);
+$fp = fopen("C:\wamp64\www\MyEcommerceSite\orders\orders.txt", 'ab');
 
 if (!$fp) {
     echo "<p><strong> Your order could not be processed at this time.
@@ -126,8 +124,10 @@ if (!$fp) {
     exit;
 }
 
+flock($fp,LOCK_EX);
+
 fwrite($fp, $outputstring, strlen($outputstring));
-flock($fp, LOCK_UN);
+flock($fp,  LOCK_UN);
 fclose($fp);
 
 echo "<p>Order written.</p>";
