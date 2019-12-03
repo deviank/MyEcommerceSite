@@ -8,7 +8,7 @@
   $magsqty = $_POST['magsqty'];
   $address = $_POST['address'];
   $find = $_POST['find'];
-  $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
+ // $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
   $date = date('H:i, jS F Y');
 
 ?>
@@ -110,7 +110,7 @@ echo "<p>Total of order is $".$totalamount."</p>";
 echo "<p>Address to ship to is ".$address."</p>";
 
 $outputstring = $date."\t".$tireqty." tires \t".$oilqty." oil\t"
-    .$sparkqty." spark plugs\t\$".$totalamount
+    .$sparkqty." spark plugs.\t".$engineqty." engines \t".$headlightqty." headlights\$".$totalamount
     ."\t". $address."\n";
 
 
