@@ -1,3 +1,6 @@
 19:06, 2nd December 2019	2 tires 	2399 oil	366 spark plugs	$1203466	feradura
 19:09, 2nd December 2019	2 tires 	2399 oil	366 spark plugs	$1203466	feradura
 18:31, 3rd December 2019	4 tires 	8 oil	16 spark plugs.	10 engines 	12 headlights$14594.8	Bermuda Road
+18:48, 4th December 2019	 tires 	 oil	 spark plugs.	 engines 	 headlights$0	
+18:48, 4th December 2019	 tires 	 oil	 spark plugs.	 engines 	 headlights$0	
+18:51, 4th December 2019	2 tires 	1 oil	6 spark plugs.	1 engines 	2 headlights$4 mags 	2186.8	41 Tobago road
