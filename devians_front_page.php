@@ -19,9 +19,10 @@ shuffle($pictures);
 
             <?php
             for ($i = 0; $i < 6; $i++) {
-                echo "<td align=\"center\"><img src=\"";
+                echo "<td align=\"center\"><img src=\"http://localhost/MyEcommerceSite/images/";
                 echo $pictures[$i];
                 echo "\"/></td>";
+                ;
             }
             ?>
         </tr>
