@@ -28,5 +28,17 @@ shuffle($pictures);
         </tr>
     </table>
 </div>
+
+<?php
+$products = array(array('Code' => 'TIR',
+                        'Description' => 'Tires',
+                        'Price' => 100),
+                  array('Code' => 'OIL',
+                        'Description' => 'Oil',
+                        'Price' => 10),
+                  array('Code' => 'SPK',
+                        'Description' => 'Spark Plugs',
+                        'Price' => 4));
+?>
 </body>
 </html>
