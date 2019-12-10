@@ -8,7 +8,7 @@ shuffle($pictures);
 ?>
 <html>
 <head>
-    <title>Devian's Auto Parts</title>
+    <title>Devian's E Retailers</title>
 </head>
 <body>
 
@@ -18,9 +18,9 @@ shuffle($pictures);
         <tr>
 
             <?php
-            for ($i = 0; $i < 6; $i++) {
+            foreach ($pictures as $picture) {
                 echo "<td align=\"center\"><img src=\"http://localhost/MyEcommerceSite/images/";
-                echo $pictures[$i];
+                echo $picture;
                 echo "\"/></td>";
                 ;
             }
