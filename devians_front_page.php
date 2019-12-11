@@ -3,8 +3,6 @@ $pictures = array('tire.png', 'oil.jpg', 'spark_plug.jpg',
     'door.jpg', 'steering_wheel.jpg',
     'thermostat.jpg', 'wiper_blade.jpg',
     'gasket.jpg', 'brake_pad.jpg');
-
-shuffle($pictures);
 ?>
 <html>
 <head>
