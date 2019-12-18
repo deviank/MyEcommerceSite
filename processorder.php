@@ -80,7 +80,7 @@
 
 	echo "Subtotal: $".number_format($totalamount,2)."<br />";
 
-	$taxrate = 0.10;  // local sales tax is 10%
+	$taxrate = 0.14;  // local sales tax is 14%
 	$totalamount = $totalamount * (1 + $taxrate);
 	echo "Total including tax: $".number_format($totalamount,2)."<br />";
 

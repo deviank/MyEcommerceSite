@@ -37,6 +37,12 @@ $products = array(array('Code' => 'TIR',
                   array('Code' => 'SPK',
                         'Description' => 'Spark Plugs',
                         'Price' => 4));
+
+
+for ($row = 0; $row < 2; $row++){
+    echo '|' . $products[$row]['Code'] .'|' . $products[$row]['Description'] .'|' . $products[$row]['Price'] . '|<br />';
+}
+
 ?>
 </body>
 </html>
