@@ -8,7 +8,7 @@
   $magsqty = $_POST['magsqty'];
   $address = $_POST['address'];
   $find = $_POST['find'];
- // $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
+  //$DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
   $date = date('H:i, jS F Y');
 
 ?>
@@ -78,11 +78,11 @@
                  + $headlightqty * HEADLIGHTPRICE
                  + $magsqty * MAGSPRICE;
 
-	echo "Subtotal: $".number_format($totalamount,2)."<br />";
+	echo "Subtotal: R".number_format($totalamount,2)."<br />";
 
 	$taxrate = 0.14;  // local sales tax is 14%
 	$totalamount = $totalamount * (1 + $taxrate);
-	echo "Total including tax: $".number_format($totalamount,2)."<br />";
+	echo "Total including tax: R".number_format($totalamount,2)."<br />";
 
 	if($find == "a") {
 	  echo "<p>Regular customer.</p>";
@@ -106,7 +106,7 @@
 	  echo "<p></p>";
 	  }
 
-echo "<p>Total of order is $".$totalamount."</p>";
+echo "<p>Total of order is R".$totalamount."</p>";
 echo "<p>Address to ship to is ".$address."</p>";
 
 $outputstring = $date."\t".$tireqty." tires \t".$oilqty." oil\t"
@@ -116,8 +116,7 @@ $outputstring = $date."\t".$tireqty." tires \t".$oilqty." oil\t"
 
 
 // open file for appending
-$fp = fopen("C:\wamp64\www\MyEcommerceSite\orders\orders.txt", 'ab');
-
+    $fp = fopen("C:\wamp64\www\MyEcommerceSite\orders\orders.txt", 'ab');
 if (!$fp) {
     echo "<p><strong> Your order could not be processed at this time.
 		    Please try again later.</strong></p></body></html>";
@@ -130,7 +129,7 @@ fwrite($fp, $outputstring, strlen($outputstring));
 flock($fp,  LOCK_UN);
 fclose($fp);
 
-echo "<p>Order written.</p>";
+echo "<p>Your order has successfully been processed.</p>";
 
 	  ?>
 </body>

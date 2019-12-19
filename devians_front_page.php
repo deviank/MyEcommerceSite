@@ -3,6 +3,26 @@ $pictures = array('tire.png', 'oil.jpg', 'spark_plug.jpg',
     'door.jpg', 'steering_wheel.jpg',
     'thermostat.jpg', 'wiper_blade.jpg',
     'gasket.jpg', 'brake_pad.jpg');
+
+$products = array(array('CAR_TIR', 'Tires', 100,
+                        'CAR_OIL', 'Oil', 10,
+                        'CAR_SPRK', 'Spark Plugs', 4,
+                        ),
+                   array('VAN_TIR', 'Tires', 100,
+                         'VAN_OIL', 'Oil', 10,
+                         'VAN_SPRK', 'Spark Plugs', 4,
+                    ),
+                   array('BIKE_TIR', 'Tires', 100,
+                         'BIKE_OIL', 'Oil', 10,
+                         'BIKE_SPRK', 'Spark Plugs', 4,
+                    ),
+                   array('TRUCK_TIR', 'Tires', 100,
+                         'TRUCK_OIL', 'Oil', 10,
+                         'TRUCK_SPRK', 'Spark Plugs', 4,
+                    ),
+                  );
+
+
 ?>
 <html>
 <head>
@@ -26,23 +46,5 @@ $pictures = array('tire.png', 'oil.jpg', 'spark_plug.jpg',
         </tr>
     </table>
 </div>
-
-<?php
-$products = array(array('Code' => 'TIR',
-                        'Description' => 'Tires',
-                        'Price' => 100),
-                  array('Code' => 'OIL',
-                        'Description' => 'Oil',
-                        'Price' => 10),
-                  array('Code' => 'SPK',
-                        'Description' => 'Spark Plugs',
-                        'Price' => 4));
-
-
-for ($row = 0; $row < 2; $row++){
-    echo '|' . $products[$row]['Code'] .'|' . $products[$row]['Description'] .'|' . $products[$row]['Price'] . '|<br />';
-}
-
-?>
 </body>
 </html>
