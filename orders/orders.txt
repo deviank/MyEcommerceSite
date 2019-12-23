@@ -1,14 +1,1 @@
-19:06, 2nd December 2019	2 tires 	2399 oil	366 spark plugs	$1203466	feradura
-19:09, 2nd December 2019	2 tires 	2399 oil	366 spark plugs	$1203466	feradura
-18:31, 3rd December 2019	4 tires 	8 oil	16 spark plugs.	10 engines 	12 headlights$14594.8	Bermuda Road
-18:48, 4th December 2019	 tires 	 oil	 spark plugs.	 engines 	 headlights$0	
-18:48, 4th December 2019	 tires 	 oil	 spark plugs.	 engines 	 headlights$0	
-18:51, 4th December 2019	2 tires 	1 oil	6 spark plugs.	1 engines 	2 headlights$4 mags 	2186.8	41 Tobago road
-08:49, 18th December 2019	 tires 	 oil	 spark plugs.	 engines 	 headlights$ mags 	0	
-08:50, 18th December 2019	16 tires 	2 oil	38 spark plugs.	60 engines 	240 headlights$800 mags 	302777.2	Epping Industria
-09:28, 18th December 2019	16 tires 	2 oil	38 spark plugs.	60 engines 	240 headlights$800 mags 	313787.28	Epping Industria
-09:47, 18th December 2019	16 tires 	2 oil	38 spark plugs.	60 engines 	240 headlights$800 mags 	313787.28	Epping Industria
-09:54, 18th December 2019	16 tires 	2 oil	38 spark plugs.	60 engines 	240 headlights$800 mags 	313787.28	Epping Industria
-09:55, 18th December 2019	16 tires 	2 oil	38 spark plugs.	60 engines 	240 headlights$800 mags 	313787.28	Epping Industria
-09:56, 18th December 2019	16 tires 	2 oil	38 spark plugs.	60 engines 	240 headlights$800 mags 	313787.28	Epping Industria
-08:17, 19th December 2019	 tires 	 oil	 spark plugs.	 engines 	 headlights$ mags 	0	
+08:58, 21st December 2019	4 tires 	2 oil	16 spark plugs.	4 engines 	8 headlights	24 mags 	11286	44 Strand Street

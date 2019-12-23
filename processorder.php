@@ -110,7 +110,7 @@ echo "<p>Total of order is R".$totalamount."</p>";
 echo "<p>Address to ship to is ".$address."</p>";
 
 $outputstring = $date."\t".$tireqty." tires \t".$oilqty." oil\t"
-    .$sparkqty." spark plugs.\t".$engineqty." engines \t".$headlightqty." headlights\$".$magsqty." mags \t".$totalamount
+    .$sparkqty." spark plugs.\t".$engineqty." engines \t".$headlightqty." headlights\t".$magsqty." mags \t".$totalamount
     ."\t". $address."\n";
 
 
