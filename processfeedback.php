@@ -11,8 +11,8 @@ $toaddress = "forza9882@gmail.com";
 $subject = "Feedback from web site";
 
 $mailcontent = "Customer name: ".$name."\n".
-    "Customer email: ".$email."\n".
-    "Customer comments:\n".$feedback."\n";
+               "Customer email: ".$email."\n".
+               "Customer comments:\n".$feedback."\n";
 
 $fromaddress = "From: webserver@example.com";
 
