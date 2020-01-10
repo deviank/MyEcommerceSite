@@ -22,7 +22,7 @@ mail($toaddress, $subject, $mailcontent, $fromaddress);
 ?>
 <html>
 <head>
-    <title>Bob's Auto Parts - Feedback Submitted</title>
+    <title>Devian's Auto Parts - Feedback Submitted</title>
 </head>
 <body>
 <h1>Feedback submitted</h1>
