@@ -1,12 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Devian
- * Date: 2020/01/10
- * Time: 10:54
- */
 
-class page
+class Page
 {
-
+    public $content;
+    public $title = "Devian Conslulting LLC";
+    public $keywords = "Devian Consulting, Six Letter Abbreviation, some of my best friends are search engines";
+    public $navigation_buttons = array("Home" => "home.php",
+                                        "Contact" => "contact.php",
+                                        "Services" => "services.php",
+                                        "Site Map" => "map.php"
+                                        );
 }
