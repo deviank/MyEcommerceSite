@@ -10,4 +10,9 @@ class Page
                                         "Services" => "services.php",
                                         "Site Map" => "map.php"
                                         );
+
+    public function __set($name, $value)
+    {
+        $this -> $name = $value;
+    }
 }
