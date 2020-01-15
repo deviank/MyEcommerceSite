@@ -25,9 +25,9 @@ class ContactPage extends Page
     }
 }
 
-$services = new ServicesPage();
+$services = new ContactPage();
 
-$services -> content ="<p>At TLA Consulting, we offer a number
+$services -> content ="<p>At Kappco Consulting, we offer a number
   of services.  Perhaps the productivity of your employees would
   improve if we re-engineered your business. Maybe all your business
   needs is a fresh mission statement, or a new batch of
