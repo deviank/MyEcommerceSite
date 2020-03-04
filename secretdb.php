@@ -1,6 +1,6 @@
 <?php
-@  $name = $_POST['name'];
-@  $password = $_POST['password'];
+ @ $name = $_POST['name'];
+ @ $password = $_POST['password'];
 
 if ((!isset($name)) || (!isset($password))) {
     //Visitor needs to enter a name and password
@@ -47,7 +47,7 @@ if ((!isset($name)) || (!isset($password))) {
             <p>I bet you are glad you can see this secret page.</p>";
     } else {
         // visitor's name and password combination are not correct
-        echo "<h1>Go Away!</h1>
+        echo "<h1>Unauthorized Access!</h1>
             <p>You are not authorized to use this resource.</p>";
     }
 }
