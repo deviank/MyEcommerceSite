@@ -6,10 +6,10 @@
 <h1>Kappco's Book-O-Rama Book Entry Results</h1>
 <?php
 // create short variable names
-$isbn=$_POST['isbn'];
-$author=$_POST['author'];
-$title=$_POST['title'];
-$price=$_POST['price'];
+@ $isbn=$_POST['isbn'];
+@ $author=$_POST['author'];
+@ $title=$_POST['title'];
+@ $price=$_POST['price'];
 
 if (!$isbn || !$author || !$title || !$price) {
     echo "You have not entered all the required details.<br />"
