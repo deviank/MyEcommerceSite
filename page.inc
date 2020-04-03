@@ -6,10 +6,10 @@ class Page
     public $title = "Kappco Consulting Pty Ltd";
     public $keywords = "Kappco Consulting, Three Letter Abbreviation, 
                      some of my best friends are search engines";
-    public $buttons = array("Home"   => "home.php",
-        "Contact"  => "contact.php",
-        "Services" => "services.php",
-        "Site Map" => "sitemap.php"
+    public $buttons = array( "Home"   => "home.php",
+                             "Contact"  => "contact.php",
+                             "Services" => "services.php",
+                             "Site Map" => "sitemap.php"
     );
 
     // class Page's operations
